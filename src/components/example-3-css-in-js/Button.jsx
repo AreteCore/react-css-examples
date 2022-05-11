@@ -40,4 +40,11 @@ const classes = styles()
   }
 
   // pro
+  //this is popular, dev team friendly because  of file structure?
   //quick server side rendering
+  //scalable
+  //reduced file size, only necessary declarations
+
+  // con
+  //unreadable classnames assigned under the hood
+  //it is a library you become dependent on. what if something happens?
