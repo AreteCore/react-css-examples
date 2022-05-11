@@ -12,13 +12,14 @@ import { createUseStyles } from "react-jss"
 
 //use their method to add a bunch of style objects
 //to one variable youre going to pass in
+//PROTIP: create this *outside* the function or 
+//you will have re-render problems on manual refresh
 const styles = createUseStyles({
   btn: {
     backgroundColor: "#da2",
     borderRadius: "8px",
     color: "white",
     fontSize: "24pt",
-    padding: "15px 50px",
     width: "300px",
   },
   btnColor: {

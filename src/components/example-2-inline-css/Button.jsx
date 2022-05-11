@@ -11,7 +11,6 @@ export default function Button({ text }) {
     borderRadius: "8px",
     color: "white",
     fontSize: "24pt",
-    padding: "15px 50px",
     width: "300px",
   }
 
