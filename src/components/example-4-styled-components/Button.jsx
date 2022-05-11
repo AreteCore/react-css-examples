@@ -10,7 +10,7 @@ const MyNewStyledButton = styled.button`
         background-color: #81a;
         border-radius: 8px;
         color: white;
-        font-size: 24pt;
+        font-size: 14pt;
         width: 300px;
 `
 //this string is "tagged template literals" "template string" "string interpolation" etc
@@ -18,7 +18,18 @@ const MyNewStyledButton = styled.button`
 
 
 export default function Button({ text }) {
-    return (
-      <MyNewStyledButton>{ text }</MyNewStyledButton>
-    );
-  }
+  return (
+    <MyNewStyledButton>{text}</MyNewStyledButton>
+  );
+}
+
+  // pros
+  //standard css syntax
+  //no extra files
+  //easy to control via props or state
+  //styles are shared across like components
+  //unified css/component
+
+  // cons
+  //weird backticks
+  //

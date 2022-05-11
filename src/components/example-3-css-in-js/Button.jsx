@@ -19,7 +19,7 @@ const styles = createUseStyles({
     backgroundColor: "#da2",
     borderRadius: "8px",
     color: "white",
-    fontSize: "24pt",
+    fontSize: "14pt",
     width: "300px",
   },
   btnColor: {

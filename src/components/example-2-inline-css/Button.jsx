@@ -10,7 +10,7 @@ export default function Button({ text }) {
     backgroundColor: "#d45",
     borderRadius: "8px",
     color: "white",
-    fontSize: "24pt",
+    fontSize: "14pt",
     width: "300px",
   }
 
