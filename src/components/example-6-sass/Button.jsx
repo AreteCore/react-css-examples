@@ -1,5 +1,9 @@
+//sass
+
+//> npm i sass
+
+import "./button.sass"
+
 export default function Button({ text }) {
-    return (
-      <button>{ text }</button>
-    );
-  }
+  return <button className="sassy-button">{ text }</button>;
+}
